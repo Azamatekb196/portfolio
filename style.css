@@ -214,6 +214,7 @@ margin-top: 160px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 25px;
+  padding-top: 140px;
 }
 
 .work {
@@ -221,9 +222,8 @@ margin-top: 160px;
   position: relative;
 }
 
-.work:nth-child(even) {
-  position: relative;
-  top: 140px;
+.work:nth-child(odd) {
+  top: -140px;
 }
 
 .work__img {
@@ -261,4 +261,28 @@ margin-top: 160px;
 
 .work:hover .work__name {
   opacity: 1;
+}
+
+/*----------
+   PROJECT
+-----------*/
+
+.projekt {
+
+}
+
+.container {
+
+}
+
+.projekt__title {
+
+}
+
+.project__wrapper {
+
+}
+
+.projekt__img {
+
 }

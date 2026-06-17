@@ -268,21 +268,43 @@ margin-top: 160px;
 -----------*/
 
 .projekt {
-
+  margin-top: 200px;
 }
+
+
 
 .container {
 
 }
 
 .projekt__title {
+  margin-top: 0;
+  margin-bottom: 60px;
+
+
+  font-weight: 700;
+  font-size: 36px;
+  text-align: center;
+  color: #DEDEDE;
+
 
 }
 
 .project__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
 
 }
 
 .projekt__img {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  object-position: center;
+}
 
+.project--vertical .projekt__img {
+  height: 560px;
 }

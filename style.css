@@ -51,6 +51,13 @@ a:hover {
   gap: 16px;
 }
 
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  text-align: center;
+  color: #DEDEDE;
+}
+
 .btn {
   display: inline-block;
   align-items: center;
@@ -108,14 +115,6 @@ a:hover {
 }
 
 /*----------
-    MAIN
------------*/
-
-.main {
-
-}
-
-/*----------
    WELCOME
 -----------*/
 
@@ -123,20 +122,10 @@ a:hover {
 margin-top: 160px;
 }
 
-.container {
-
-}
-
 .welcome .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
-  
-}
-
-.welcom__desk {
-
 }
 
 .welcome__title {
@@ -152,12 +141,6 @@ margin-top: 160px;
 .welcome__text {
   width: 395px;
   margin-bottom: 88px;
-}
-
-
-
-.welcome__btn {
-
 }
 
 .welcome__img {
@@ -178,10 +161,6 @@ margin-top: 160px;
   
 }
 
-.container {
-
-}
-
 .works__btn {
 
   display: inline-flex;
@@ -200,14 +179,6 @@ margin-top: 160px;
   background-color: transparent;
   border: none;
   opacity: 0.7;
-
-
-
-
-}
-
-.works__icon {
-
 }
 
 .works__wrapper {
@@ -271,23 +242,9 @@ margin-top: 160px;
   margin-top: 200px;
 }
 
-
-
-.container {
-
-}
-
 .projekt__title {
   margin-top: 0;
   margin-bottom: 60px;
-
-
-  font-weight: 700;
-  font-size: 36px;
-  text-align: center;
-  color: #DEDEDE;
-
-
 }
 
 .project__wrapper {
@@ -295,7 +252,6 @@ margin-top: 160px;
   flex-wrap: wrap;
   gap: 20px;
   justify-content: center;
-
 }
 
 .projekt__img {
@@ -307,4 +263,35 @@ margin-top: 160px;
 
 .project--vertical .projekt__img {
   height: 560px;
+}
+
+/*----------
+   CONTACT
+-----------*/
+
+.contact {
+  margin-top: 200px;
+}
+
+.contact .container {
+  max-width: 520px;
+  text-align: center;
+}
+
+.title {
+
+}
+
+.contact__title {
+  margin-top: 24px;
+}
+
+.contact__text {
+  font-size: 26px;
+  margin-bottom: 48px;
+}
+
+
+.contact__btn {
+
 }
